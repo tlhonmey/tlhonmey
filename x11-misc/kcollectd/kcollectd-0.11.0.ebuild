@@ -29,7 +29,7 @@ DEPEND="dev-libs/appstream
 RDEPEND="${DEPEND}"
 BDEPEND=""
 
-S="${WORKDIR}/kcollectd-v0.10.2"
+S="${WORKDIR}/kcollectd-v${PV}"
 
 src_configure() {
 	cmake-utils_src_configure
