@@ -11,7 +11,7 @@ SRC_URI="https://gitlab.com/aerusso/kcollectd/-/archive/v0.10.2/kcollectd-v0.10.
 
 LICENSE="GPL-3"
 SLOT="0"
-KEYWORDS="~amd64 ~x86"
+KEYWORDS="amd64 ~x86"
 IUSE=""
 
 DEPEND="dev-libs/appstream
