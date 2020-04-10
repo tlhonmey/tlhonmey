@@ -17,6 +17,7 @@ IUSE=""
 DEPEND="dev-libs/appstream
 		net-analyzer/rrdtool
 		dev-util/cmake
+		dev-qt/qtconcurrent
 		kde-frameworks/extra-cmake-modules
 		kde-frameworks/kdoctools
 		kde-frameworks/kconfig
