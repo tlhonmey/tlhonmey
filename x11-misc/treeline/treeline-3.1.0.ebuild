@@ -12,7 +12,7 @@ SRC_URI="mirror://sourceforge/project/${PN}/${PV}/${P}.tar.gz"
 
 LICENSE="GPL-2"
 SLOT="0"
-KEYWORDS=""
+KEYWORDS="amd64 ~x86"
 
 DEPEND="
 	${PYTHON_DEPS}
