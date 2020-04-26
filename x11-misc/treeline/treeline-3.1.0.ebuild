@@ -19,7 +19,7 @@ DEPEND="
 "
 RDEPEND="
 	${DEPEND}
-	dev-python/PyQt5[${PYTHON_USEDEP}]
+	$(python_gen_cond_dep 'dev-python/PyQt5[${PYTHON_USEDEP}]' python3_{4,5,6} )
 "
 REQUIRED_USE="${PYTHON_REQUIRED_USE}"
 
