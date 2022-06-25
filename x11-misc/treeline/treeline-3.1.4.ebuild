@@ -2,7 +2,7 @@
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=6
-PYTHON_COMPAT=( python3_{4,5,6,7,8,9} )
+PYTHON_COMPAT=( python3_{8,9,10,11} )
 PYTHON_REQ_USE="xml"
 inherit eutils python-single-r1
 
@@ -19,7 +19,7 @@ DEPEND="
 "
 RDEPEND="
 	${DEPEND}
-	$(python_gen_cond_dep 'dev-python/PyQt5[${PYTHON_USEDEP}]' python3_{4,5,6,7,8,9} )
+	$(python_gen_cond_dep 'dev-python/PyQt5[${PYTHON_USEDEP}]' python3_{8,9,10,11} )
 "
 REQUIRED_USE="${PYTHON_REQUIRED_USE}"
 
