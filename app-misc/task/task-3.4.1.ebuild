@@ -383,7 +383,7 @@ IUSE="+sync"
 
 DEPEND="
 	sync? ( net-libs/gnutls )
-	>=virtual/rust-1.64.0
+	|| ( >=dev-lang/rust-1.64.0 >=dev-lang/rust-1.64.0 )
 "
 RDEPEND="${DEPEND}"
 
